@@ -1,0 +1,35 @@
+{
+	"name":"beePing",
+	"version":"0.1.0",
+	"description":"Agent of the beePing network",
+	"author":"Ed <ed@suikatech.com",
+	"homepage":"http://www.bee-ping.net",
+	"contributors": [],
+	"bin" : {},
+	"scripts": {
+		"start": "node agent.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suikatech/beePing/"
+	},
+	"bugs": {
+		"url": "https://github.com/suikatech/beePing/"
+	},
+	"keywords": [
+		"beePing",
+		"agent"
+	],
+	"dependencies": {
+		"express": "~4.11.2",
+		"request": "~2.53.0",
+		"forever": "~0.14.1",
+		"net-ping": "~1.1.11"
+	},
+	"devDependencies": {
+	},
+	"preferGlobal":false,
+	"private": true,
+	"publishConfig": {},
+	"license": "GPLv3"
+}
