@@ -1,0 +1,11 @@
+var bpconfig = {};
+
+bpconfig.userUid = {USERUID};
+bpconfig.accountUid = "{ACCOUNTUID}";
+bpconfig.agentToken = "{TOKEN}";
+bpconfig.timeTolerance = 500;
+bpconfig.agentPort = 8080;
+bpconfig.maxRate = 600; // 10 query per sec limit = 600/min
+bpconfig.masterUrl = "http://api.bee-ping.net/"; 
+
+module.exports = bpconfig;
